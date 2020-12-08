@@ -4,15 +4,24 @@
 }
 .area {
     margin: 5px auto;
-    width: 1000px;
-    height: 750px;
-    border: 3px solid black;
+    width: 500px;
+    height: 400px;
+    border: 10px solid black;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 25% 25% 25% 25%;
 }
 
 .area > div {
-    background: green;
-    border: solid darkgreen 1px;
+    background: rgb(250, 123, 123);
+    border: solid rgb(250, 98, 98) 1px;
+}
+
+#move{
+    position: relative;
+    background-color: lightslategray;
+    width: 15px;
+    height: 30px; 
+    top: 0px;
+    left: 0px;
 }
